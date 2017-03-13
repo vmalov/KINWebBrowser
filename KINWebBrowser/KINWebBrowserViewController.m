@@ -604,15 +604,6 @@ static void *KINWebBrowserContext = &KINWebBrowserContext;
     [self.navigationController dismissViewControllerAnimated:animated completion:nil];
 }
 
-#pragma mark - Interface Orientation
-
-- (UIInterfaceOrientationMask)supportedInterfaceOrientations {
-    return UIInterfaceOrientationMaskAllButUpsideDown;
-}
-
-- (BOOL)shouldAutorotate {
-    return YES;
-}
 
 #pragma mark - Dealloc
 
